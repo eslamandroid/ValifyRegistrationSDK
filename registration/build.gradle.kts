@@ -91,6 +91,11 @@ dependencies {
     //ViewModel
     implementation(libs.androidx.lifecycle.viewmodel)
 
+
+    // For responsive layouts
+    implementation(libs.sdp.android)
+    implementation(libs.ssp.android)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

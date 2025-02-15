@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">RegistrationSDK</string>
+    <string name="register_button_label">Save Data</string>
+    <string name="phone_text_field_label">Phone *</string>
+    <string name="email_text_field_label">Email *</string>
+    <string name="username_text_field_label">Username *</string>
+    <string name="registration_title">Registration</string>
+    <string name="required_text_field">required.</string>
+    <string name="please_enter_valid_username_error_msg">User Name  must be at least 3 characters</string>
+    <string name="please_enter_valid_email_error_msg">Email must be a valid email address</string>
+    <string name="please_enter_valid_phone_error_msg">Phone number must be 11 digits</string>
+    <string name="please_enter_valid_password_error_msg">Password must be at least 8 characters</string>
+    <string name="password_text_field_label">Password *</string>
+    <string name="database_error_msg">We encounter issue connecting to database</string>
+    <string name="something_went_wrong_msg">Something went wrong</string>
 </resources>
