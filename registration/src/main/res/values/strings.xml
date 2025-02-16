@@ -12,4 +12,8 @@
     <string name="password_text_field_label">Password *</string>
     <string name="database_error_msg">We encounter issue connecting to database</string>
     <string name="something_went_wrong_msg">Something went wrong</string>
+    <string name="camera_permission_msg">Please grant the permission to use the camera to use the core functionality of this app.</string>
+    <string name="grant_permission_label">Grant permission</string>
+    <string name="please_enable_camera_permission_msg">Please enable camera permission in settings.</string>
+    <string name="camera_permission_is_required_msg">Camera permission is required</string>
 </resources>

@@ -5,4 +5,6 @@ plugins {
     alias(libs.plugins.ksp.kotlin.symbol) apply false
     alias(libs.plugins.dagger.hilt) apply false
     alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.navigation.args) apply false
+
 }

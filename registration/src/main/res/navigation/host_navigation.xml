@@ -9,5 +9,16 @@
         android:id="@+id/registrationFormFragment"
         tools:layout="@layout/fragment_registration_form"
         android:name="com.valify.registration.presentation.registration.RegistrationFormFragment"
-        android:label="RegistrationFormFragment" />
+        android:label="RegistrationFormFragment" >
+        <action
+            android:id="@+id/action_registrationFormFragment_to_captureImageFragment"
+            app:destination="@id/captureImageFragment"
+            app:popUpTo="@id/registrationFormFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/captureImageFragment"
+        tools:layout="@layout/fragment_capture_image"
+        android:name="com.valify.registration.presentation.captureImage.CaptureImageFragment"
+        android:label="CaptureImageFragment" />
 </navigation>
