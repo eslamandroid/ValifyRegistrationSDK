@@ -21,6 +21,7 @@ import com.valify.registration.domain.utils.ValidationType
 import com.valify.registration.presentation.registration.viewmodel.RegistrationIntent
 import com.valify.registration.presentation.registration.viewmodel.RegistrationViewModel
 import com.valify.registration.utils.hiddenKeyboard
+import com.valify.registration.utils.navigationSafe
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -100,7 +101,7 @@ class RegistrationFormFragment : Fragment(R.layout.fragment_registration_form) {
 
             "password" -> {
                 passwordInputLayout.error = if (type == ValidationType.Empty) getString(R.string.required_text_field)
-                else getString(R.string.please_enter_valid_phone_error_msg)
+                else getString(R.string.please_enter_valid_password_error_msg)
             }
         }
     }
@@ -127,7 +128,7 @@ class RegistrationFormFragment : Fragment(R.layout.fragment_registration_form) {
                         }
 
                         if (success) {
-                            // Navigate to capture image
+                           navigationSafe(RegistrationFormFragmentDirections.actionRegistrationFormFragmentToCaptureImageFragment())
                         }
                     }
 

@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp.kotlin.symbol)
     alias(libs.plugins.dagger.hilt)
+    alias(libs.plugins.navigation.args)
     id("kotlin-parcelize")
     id("maven-publish")
 }

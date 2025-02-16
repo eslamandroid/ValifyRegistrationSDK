@@ -23,6 +23,8 @@ activity = "1.10.0"
 constraintlayout = "2.2.0"
 sdpAndroid = "1.1.0"
 sspAndroid = "1.1.0"
+nav_version = "2.8.7"
+
 
 
 [libraries]
@@ -59,3 +61,4 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 dagger_hilt = {id = "com.google.dagger.hilt.android", version.ref = "dagger_hilt_plugin"}
 ksp-kotlin-symbol = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+navigation-args = { id = "androidx.navigation.safeargs.kotlin", version.ref = "nav_version" }
