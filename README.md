@@ -14,7 +14,7 @@ Download
 --------
 
 ```groovy
-implementation("com.valify.registration:RegistrationSDK:1.0.0")
+implementation("com.github.eslamandroid:ValifyRegistrationSDK:1.0.0")
 ```
 or Maven:
 ```xml
